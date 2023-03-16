@@ -1,15 +1,21 @@
 ## Hotstar UI Clone SwiftUI (Swift)
 Hotstar UI Clone - SwiftUI - Swift
 
-## :dart: About ##
+## About ##
 
 Made using SwiftUI with Swift language.
+
+## ScreenShot
+![Home Top](https://user-images.githubusercontent.com/35864649/225599888-bc3ec8ea-f253-483e-8454-5b532b0b6126.png)
+![Home List](https://user-images.githubusercontent.com/35864649/225599949-5e2b4f10-e0c3-4b8a-9433-694e3c9e3433.png)
+
+
 
 ## Features
 - Home Page UI in SwiftUI
 
 
-## :rocket: Technologies ##
+## Technologies ##
 
 The following tools were used in this project:
 
