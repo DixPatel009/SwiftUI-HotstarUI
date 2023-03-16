@@ -5,12 +5,6 @@ Hotstar UI Clone - SwiftUI - Swift
 
 Made using SwiftUI with Swift language.
 
-## ScreenShot
-![Home Top](https://user-images.githubusercontent.com/35864649/225599888-bc3ec8ea-f253-483e-8454-5b532b0b6126.png)
-![Home List](https://user-images.githubusercontent.com/35864649/225599949-5e2b4f10-e0c3-4b8a-9433-694e3c9e3433.png)
-
-
-
 ## Features
 - Home Page UI in SwiftUI
 
@@ -22,6 +16,10 @@ The following tools were used in this project:
 - [SwiftUI] - https://developer.apple.com/xcode/swiftui/
 - [Xcode] - https://developer.apple.com/xcode/
 - [COCOAPODS] - https://cocoapods.org/
+
+## ScreenShot
+![Home Top](https://user-images.githubusercontent.com/35864649/225600869-86988c47-92f5-4c5f-adb2-b8a4eef54ccf.png)
+![Home List](https://user-images.githubusercontent.com/35864649/225600948-7c70a58c-ec45-461e-a6ba-ec104031e323.png)
 
 
 ## ThirdParty
