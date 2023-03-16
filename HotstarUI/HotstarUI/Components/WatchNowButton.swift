@@ -27,7 +27,7 @@ struct WatchNowButton: View {
                 Spacer()
             }
             .padding([.top, .bottom], 12)
-            .background(Color(uiColor: UIColor(rgb: 0x21334C)))
+            .background(DefualtColor().btnBGColor)
             .foregroundColor(.white)
             .cornerRadius(4.0)
         })

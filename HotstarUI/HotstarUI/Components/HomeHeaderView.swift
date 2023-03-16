@@ -11,10 +11,18 @@ struct HomeHeaderView: View {
     var body: some View {
         
         HStack {
+//            
+//            OnlyImageButton {
+//                
+//            }
+//            .padding(.leading, 16)
+//            
             Spacer()
+            
             UpgradeButtonView(text: "UPGRADE") {
                 print("UPGRADE Clicked!!")
             }.padding(.trailing, 16)
+            
         }
         
     }

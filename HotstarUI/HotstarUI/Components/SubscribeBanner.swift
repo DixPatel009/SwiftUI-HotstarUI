@@ -25,7 +25,7 @@ struct SubscribeBanner: View {
             
         }
         .cornerRadius(8.0)
-        .background(Color(uiColor: UIColor(rgb: 0x21334C)))
+        .background(DefualtColor().btnBGColor)
         
     }
     

@@ -19,7 +19,7 @@ struct OnlyImageButton: View {
                     .tint(.white)
             }
             .padding(16)
-            .background(Color(uiColor: UIColor(rgb: 0x21334C)))
+            .background(DefualtColor().btnBGColor)
             .foregroundColor(.white)
             .cornerRadius(4.0)
         })

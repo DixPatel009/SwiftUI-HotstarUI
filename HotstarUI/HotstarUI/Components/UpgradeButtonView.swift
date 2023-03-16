@@ -12,8 +12,8 @@ struct UpgradeButtonView: View {
     var text: String
     
     @State var isBorder: Bool = true
-    @State var textColor: Color = Color(uiColor: UIColor(rgb: 0xF0AE04))
-    @State var borderColor: Color = Color(uiColor: UIColor(rgb: 0xF0AE04))
+    @State var textColor: Color = DefualtColor().btnGoldColor
+    @State var borderColor: Color = DefualtColor().btnGoldColor
     @State var borderWidth: CGFloat = 1
     @State var cornerRadius: CGFloat = 4
     var backgroundColor: Color = Color.clear

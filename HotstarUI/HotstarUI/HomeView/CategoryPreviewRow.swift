@@ -59,7 +59,7 @@ extension CategoryPreviewRow {
                 }
             }
             .padding(.bottom, 8.0)
-            .padding([.leading, .trailing], 16)
+            .padding([.leading, .trailing], 8)
             
             ScrollView(.horizontal, showsIndicators: false) {
                 
@@ -70,6 +70,7 @@ extension CategoryPreviewRow {
                 }
                 
             }
+            .padding([.leading, .trailing], 8)
             .frame(height: obj.height)
             
         }

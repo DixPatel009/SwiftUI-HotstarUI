@@ -23,7 +23,7 @@ struct ViewAllView: View {
                 Image("ic_next")
                                .resizable()
                                .aspectRatio(contentMode: .fit)
-                               .frame(width: 16)
+                               .frame(width: 12)
             }
         }.onTapGesture {
             self.viewallHandler()

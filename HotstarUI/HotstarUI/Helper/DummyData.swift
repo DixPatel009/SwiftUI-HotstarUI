@@ -30,6 +30,13 @@ class GlobalData: ObservableObject {
     
 }
 
+class DefualtColor: ObservableObject {
+
+    @Published var btnBGColor = Color(uiColor: UIColor(rgb: 0x21334C))
+    @Published var btnGoldColor = Color(uiColor: UIColor(rgb: 0xF0AE04))
+    
+}
+
 struct Category: Hashable, Equatable {
     
     var name: String
