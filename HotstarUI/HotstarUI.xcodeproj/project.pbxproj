@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		271C7A739A3A94B8DABC5ABE /* Pods_HotstarUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77707FE5633D5F572423E63D /* Pods_HotstarUI.framework */; };
+		8167420429C2E19300156171 /* HotstarUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8167420329C2E19300156171 /* HotstarUIApp.swift */; };
+		8167420829C2E19500156171 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8167420729C2E19500156171 /* Assets.xcassets */; };
+		8167420B29C2E19500156171 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8167420A29C2E19500156171 /* Preview Assets.xcassets */; };
+		8167421829C2E1C900156171 /* OnlyImageButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8167421229C2E1C800156171 /* OnlyImageButton.swift */; };
+		8167421929C2E1C900156171 /* WatchNowButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8167421329C2E1C800156171 /* WatchNowButton.swift */; };
+		8167421A29C2E1C900156171 /* UpgradeButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8167421429C2E1C800156171 /* UpgradeButtonView.swift */; };
+		8167421B29C2E1C900156171 /* ViewAllView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8167421529C2E1C800156171 /* ViewAllView.swift */; };
+		8167421C29C2E1C900156171 /* HomeHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8167421629C2E1C900156171 /* HomeHeaderView.swift */; };
+		8167421D29C2E1C900156171 /* StandardImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8167421729C2E1C900156171 /* StandardImage.swift */; };
+		8167422029C2E1E700156171 /* AllExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8167421F29C2E1E700156171 /* AllExtension.swift */; };
+		8167422529C2E1FE00156171 /* NewHomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8167422229C2E1FE00156171 /* NewHomeVC.swift */; };
+		8167422629C2E1FE00156171 /* TopBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8167422329C2E1FE00156171 /* TopBannerView.swift */; };
+		8167422729C2E1FE00156171 /* CategoryPreviewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8167422429C2E1FE00156171 /* CategoryPreviewRow.swift */; };
+		8167422A29C2E35C00156171 /* DummyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8167422929C2E35C00156171 /* DummyData.swift */; };
+		8167422C29C2F66300156171 /* SubscribeBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8167422B29C2F66300156171 /* SubscribeBanner.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2B6ABF53AC15057B1F837B87 /* Pods-HotstarUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HotstarUI.debug.xcconfig"; path = "Target Support Files/Pods-HotstarUI/Pods-HotstarUI.debug.xcconfig"; sourceTree = "<group>"; };
+		77707FE5633D5F572423E63D /* Pods_HotstarUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HotstarUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8167420029C2E19300156171 /* HotstarUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HotstarUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8167420329C2E19300156171 /* HotstarUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotstarUIApp.swift; sourceTree = "<group>"; };
+		8167420729C2E19500156171 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8167420A29C2E19500156171 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8167421229C2E1C800156171 /* OnlyImageButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnlyImageButton.swift; sourceTree = "<group>"; };
+		8167421329C2E1C800156171 /* WatchNowButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatchNowButton.swift; sourceTree = "<group>"; };
+		8167421429C2E1C800156171 /* UpgradeButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpgradeButtonView.swift; sourceTree = "<group>"; };
+		8167421529C2E1C800156171 /* ViewAllView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewAllView.swift; sourceTree = "<group>"; };
+		8167421629C2E1C900156171 /* HomeHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeHeaderView.swift; sourceTree = "<group>"; };
+		8167421729C2E1C900156171 /* StandardImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StandardImage.swift; sourceTree = "<group>"; };
+		8167421F29C2E1E700156171 /* AllExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllExtension.swift; sourceTree = "<group>"; };
+		8167422229C2E1FE00156171 /* NewHomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewHomeVC.swift; sourceTree = "<group>"; };
+		8167422329C2E1FE00156171 /* TopBannerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopBannerView.swift; sourceTree = "<group>"; };
+		8167422429C2E1FE00156171 /* CategoryPreviewRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryPreviewRow.swift; sourceTree = "<group>"; };
+		8167422929C2E35C00156171 /* DummyData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DummyData.swift; sourceTree = "<group>"; };
+		8167422B29C2F66300156171 /* SubscribeBanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscribeBanner.swift; sourceTree = "<group>"; };
+		AF0065A90B1ED1417E59C437 /* Pods-HotstarUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HotstarUI.release.xcconfig"; path = "Target Support Files/Pods-HotstarUI/Pods-HotstarUI.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		816741FD29C2E19300156171 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				271C7A739A3A94B8DABC5ABE /* Pods_HotstarUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		005A2094C5A475FB2585DECB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				77707FE5633D5F572423E63D /* Pods_HotstarUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1DDC7B418F13E60327467BC0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2B6ABF53AC15057B1F837B87 /* Pods-HotstarUI.debug.xcconfig */,
+				AF0065A90B1ED1417E59C437 /* Pods-HotstarUI.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		816741F729C2E19300156171 = {
+			isa = PBXGroup;
+			children = (
+				8167420229C2E19300156171 /* HotstarUI */,
+				8167420129C2E19300156171 /* Products */,
+				1DDC7B418F13E60327467BC0 /* Pods */,
+				005A2094C5A475FB2585DECB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8167420129C2E19300156171 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8167420029C2E19300156171 /* HotstarUI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8167420229C2E19300156171 /* HotstarUI */ = {
+			isa = PBXGroup;
+			children = (
+				8167420329C2E19300156171 /* HotstarUIApp.swift */,
+				8167422129C2E1EF00156171 /* HomeView */,
+				8167421129C2E1BD00156171 /* Components */,
+				8167421E29C2E1D800156171 /* Extension */,
+				8167422829C2E34B00156171 /* Helper */,
+				8167420729C2E19500156171 /* Assets.xcassets */,
+				8167420929C2E19500156171 /* Preview Content */,
+			);
+			path = HotstarUI;
+			sourceTree = "<group>";
+		};
+		8167420929C2E19500156171 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8167420A29C2E19500156171 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8167421129C2E1BD00156171 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				8167421629C2E1C900156171 /* HomeHeaderView.swift */,
+				8167421729C2E1C900156171 /* StandardImage.swift */,
+				8167421429C2E1C800156171 /* UpgradeButtonView.swift */,
+				8167421529C2E1C800156171 /* ViewAllView.swift */,
+				8167421329C2E1C800156171 /* WatchNowButton.swift */,
+				8167421229C2E1C800156171 /* OnlyImageButton.swift */,
+				8167422B29C2F66300156171 /* SubscribeBanner.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		8167421E29C2E1D800156171 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				8167421F29C2E1E700156171 /* AllExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		8167422129C2E1EF00156171 /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				8167422229C2E1FE00156171 /* NewHomeVC.swift */,
+				8167422329C2E1FE00156171 /* TopBannerView.swift */,
+				8167422429C2E1FE00156171 /* CategoryPreviewRow.swift */,
+			);
+			path = HomeView;
+			sourceTree = "<group>";
+		};
+		8167422829C2E34B00156171 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				8167422929C2E35C00156171 /* DummyData.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		816741FF29C2E19300156171 /* HotstarUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8167420E29C2E19500156171 /* Build configuration list for PBXNativeTarget "HotstarUI" */;
+			buildPhases = (
+				704D553D530B73F10703956C /* [CP] Check Pods Manifest.lock */,
+				816741FC29C2E19300156171 /* Sources */,
+				816741FD29C2E19300156171 /* Frameworks */,
+				816741FE29C2E19300156171 /* Resources */,
+				90025E2CF4A6B9C5B90EEDC7 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HotstarUI;
+			productName = HotstarUI;
+			productReference = 8167420029C2E19300156171 /* HotstarUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		816741F829C2E19300156171 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					816741FF29C2E19300156171 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 816741FB29C2E19300156171 /* Build configuration list for PBXProject "HotstarUI" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 816741F729C2E19300156171;
+			productRefGroup = 8167420129C2E19300156171 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				816741FF29C2E19300156171 /* HotstarUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		816741FE29C2E19300156171 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8167420B29C2E19500156171 /* Preview Assets.xcassets in Resources */,
+				8167420829C2E19500156171 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		704D553D530B73F10703956C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HotstarUI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90025E2CF4A6B9C5B90EEDC7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HotstarUI/Pods-HotstarUI-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HotstarUI/Pods-HotstarUI-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HotstarUI/Pods-HotstarUI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		816741FC29C2E19300156171 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8167422A29C2E35C00156171 /* DummyData.swift in Sources */,
+				8167420429C2E19300156171 /* HotstarUIApp.swift in Sources */,
+				8167421D29C2E1C900156171 /* StandardImage.swift in Sources */,
+				8167422729C2E1FE00156171 /* CategoryPreviewRow.swift in Sources */,
+				8167422029C2E1E700156171 /* AllExtension.swift in Sources */,
+				8167422629C2E1FE00156171 /* TopBannerView.swift in Sources */,
+				8167421A29C2E1C900156171 /* UpgradeButtonView.swift in Sources */,
+				8167422C29C2F66300156171 /* SubscribeBanner.swift in Sources */,
+				8167421B29C2E1C900156171 /* ViewAllView.swift in Sources */,
+				8167422529C2E1FE00156171 /* NewHomeVC.swift in Sources */,
+				8167421929C2E1C900156171 /* WatchNowButton.swift in Sources */,
+				8167421C29C2E1C900156171 /* HomeHeaderView.swift in Sources */,
+				8167421829C2E1C900156171 /* OnlyImageButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8167420C29C2E19500156171 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8167420D29C2E19500156171 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8167420F29C2E19500156171 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B6ABF53AC15057B1F837B87 /* Pods-HotstarUI.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HotstarUI/Preview Content\"";
+				DEVELOPMENT_TEAM = Y3U6MF75XY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.HotstarUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8167421029C2E19500156171 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF0065A90B1ED1417E59C437 /* Pods-HotstarUI.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HotstarUI/Preview Content\"";
+				DEVELOPMENT_TEAM = Y3U6MF75XY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.HotstarUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		816741FB29C2E19300156171 /* Build configuration list for PBXProject "HotstarUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8167420C29C2E19500156171 /* Debug */,
+				8167420D29C2E19500156171 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8167420E29C2E19500156171 /* Build configuration list for PBXNativeTarget "HotstarUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8167420F29C2E19500156171 /* Debug */,
+				8167421029C2E19500156171 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 816741F829C2E19300156171 /* Project object */;
+}
