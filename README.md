@@ -1,4 +1,4 @@
-#Hotstar UI Clone SwiftUI (Swift)
+##Hotstar UI Clone SwiftUI (Swift)
 Hotstar UI Clone - SwiftUI - Swift
 
 ## :dart: About ##
